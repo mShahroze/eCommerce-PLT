@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductItem matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="product"
+  >
+    <img
+      alt="Black Sheet Strappy Textured Glitter Bodycon Dress"
+      class="productImg"
+      src="http://cdn-img.prettylittlething.com/9/0/a/a/90aa90903a135ee59594f47c7685aa7ef3046e44_cly8063_1.jpg?imwidth=1024"
+    />
+    <div
+      class="productDetails"
+    >
+      <p
+        class="productDetailsName"
+      >
+        Black Sheet Strappy Textured Glitter Bodycon Dress
+      </p>
+      <p
+        class="productDetailsColour"
+      >
+        Black
+      </p>
+      <p
+        class="productDetailsPrice"
+      >
+        £ 10
+      </p>
+    </div>
+    <div
+      class="productButtons"
+    >
+      <a
+        href="/products/1"
+      >
+        <button
+          class="productButtonsBtn productButtonsView"
+        >
+          View Item
+        </button>
+      </a>
+      <button
+        class="productButtonsBtn productButtonsAdd"
+      >
+        Add To Cart
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

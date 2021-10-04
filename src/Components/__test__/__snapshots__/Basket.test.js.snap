@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basket component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="basket"
+  >
+    <div
+      class="basketItems"
+      data-testid="basket"
+    >
+      <div
+        class="basketItem"
+        data-testid="basketItem"
+      >
+        <img
+          alt="Black Sheet Strappy Textured Glitter Bodycon Dress"
+          class="basketItemImg"
+          src="http://cdn-img.prettylittlething.com/9/0/a/a/90aa90903a135ee59594f47c7685aa7ef3046e44_cly8063_1.jpg?imwidth=1024"
+        />
+        <div
+          class="basketItemDetails"
+        >
+          <p
+            class="detailsName"
+          >
+            Black Sheet Strappy Textured Glitter Bodycon Dress
+          </p>
+          <p
+            class="detailsColour"
+          >
+            Black
+          </p>
+          <p
+            class="detailsPrice"
+          >
+            £ 10
+          </p>
+        </div>
+        <div
+          class="basketItemActions"
+        >
+          <div
+            class="basketItemQuantity"
+          >
+            <label
+              for="qty"
+            >
+              Qty
+            </label>
+            <input
+              data-testid="input"
+              id="qty"
+              min="1"
+              name="qty"
+              type="number"
+              value="1"
+            />
+          </div>
+          <button
+            class="actionsDeleteItemButton"
+            data-testid="removeItem"
+          >
+            <img
+              alt=""
+              src="https://image.flaticon.com/icons/svg/709/709519.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="basketSummary"
+    >
+      <h4
+        class="summaryName"
+      >
+        Cart Summary
+      </h4>
+      <div
+        class="summaryPrice"
+      >
+        <span>
+          TOTAL: 1
+        </span>
+        <span>
+          £ 10.00
+        </span>
+      </div>
+      <button
+        class="summaryCheckoutButton"
+      >
+        Proceed To Checkout
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
