@@ -1,0 +1,78 @@
+:root {
+  --light: #f8f8ff;
+  --secondary: #08080f;
+}
+
+.product {
+  width: 900px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 210px;
+}
+
+.productImg {
+  width: 250px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+}
+
+.productDetails {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productDetailsName {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.productDetailsColour {
+  font-size: 0.85rem;
+  color: var(--secondary-color);
+}
+
+.productDetailsPrice {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.productButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.productButtonsBtn {
+  width: 100px;
+  padding: 1rem;
+  margin: 10px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 3px;
+  font-size: 0.65rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.productButtonsBtn:hover {
+  opacity: 0.7;
+}
+
+.productButtonsView {
+  background: var(--light);
+  color: var(--secondary);
+}
+
+.productButtonsAdd {
+  background: var(--secondary);
+  color: var(--light);
+}
