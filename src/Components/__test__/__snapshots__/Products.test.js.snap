@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="products"
+    data-testid="products-wrapper"
+  >
+    <div
+      class="product"
+    >
+      <img
+        alt="Black Sheet Strappy Textured Glitter Bodycon Dress"
+        class="productImg"
+        src="http://cdn-img.prettylittlething.com/9/0/a/a/90aa90903a135ee59594f47c7685aa7ef3046e44_cly8063_1.jpg?imwidth=1024"
+      />
+      <div
+        class="productDetails"
+      >
+        <p
+          class="productDetailsName"
+        >
+          Black Sheet Strappy Textured Glitter Bodycon Dress
+        </p>
+        <p
+          class="productDetailsColour"
+        >
+          Black
+        </p>
+        <p
+          class="productDetailsPrice"
+        >
+          £ 10
+        </p>
+      </div>
+      <div
+        class="productButtons"
+      >
+        <a
+          href="/products/1"
+        >
+          <button
+            class="productButtonsBtn productButtonsView"
+          >
+            View Item
+          </button>
+        </a>
+        <button
+          class="productButtonsBtn productButtonsAdd"
+        >
+          Add To Cart
+        </button>
+      </div>
+    </div>
+    <div
+      class="product"
+    >
+      <img
+        alt="Stone Ribbed Strappy Cut Out Detail Bodycon Dress"
+        class="productImg"
+        src="https://cdn-img.prettylittlething.com/3/6/5/a/365a5d1dce6a2b77b564379b302c9d83afccf33b_cmd2051_1.jpg?imwidth=1024"
+      />
+      <div
+        class="productDetails"
+      >
+        <p
+          class="productDetailsName"
+        >
+          Stone Ribbed Strappy Cut Out Detail Bodycon Dress
+        </p>
+        <p
+          class="productDetailsColour"
+        >
+          Stone
+        </p>
+        <p
+          class="productDetailsPrice"
+        >
+          £ 4
+        </p>
+      </div>
+      <div
+        class="productButtons"
+      >
+        <a
+          href="/products/2"
+        >
+          <button
+            class="productButtonsBtn productButtonsView"
+          >
+            View Item
+          </button>
+        </a>
+        <button
+          class="productButtonsBtn productButtonsAdd"
+        >
+          Add To Cart
+        </button>
+      </div>
+    </div>
+    <div
+      class="product"
+    >
+      <img
+        alt="Black Frill Tie Shoulder Bodycon Dress"
+        class="productImg"
+        src="https://cdn-img.prettylittlething.com/d/c/3/3/dc337260f9ecefdb99a8c8e98cd73ccb1b79cea5_cmb6804_4.jpg?imwidth=1024"
+      />
+      <div
+        class="productDetails"
+      >
+        <p
+          class="productDetailsName"
+        >
+          Black Frill Tie Shoulder Bodycon Dress
+        </p>
+        <p
+          class="productDetailsColour"
+        >
+          Black
+        </p>
+        <p
+          class="productDetailsPrice"
+        >
+          £ 7.99
+        </p>
+      </div>
+      <div
+        class="productButtons"
+      >
+        <a
+          href="/products/3"
+        >
+          <button
+            class="productButtonsBtn productButtonsView"
+          >
+            View Item
+          </button>
+        </a>
+        <button
+          class="productButtonsBtn productButtonsAdd"
+        >
+          Add To Cart
+        </button>
+      </div>
+    </div>
+    <div
+      class="product"
+    >
+      <img
+        alt="Red Pin Stripe Belt T Shirt Dress"
+        class="productImg"
+        src="https://cdn-img.prettylittlething.com/f/7/1/8/f718a4011ddf92f48aeefff6da0f475178694599_cly0842_1.jpg?imwidth=1024"
+      />
+      <div
+        class="productDetails"
+      >
+        <p
+          class="productDetailsName"
+        >
+          Red Pin Stripe Belt T Shirt Dress
+        </p>
+        <p
+          class="productDetailsColour"
+        >
+          Red
+        </p>
+        <p
+          class="productDetailsPrice"
+        >
+          £ 17
+        </p>
+      </div>
+      <div
+        class="productButtons"
+      >
+        <a
+          href="/products/5"
+        >
+          <button
+            class="productButtonsBtn productButtonsView"
+          >
+            View Item
+          </button>
+        </a>
+        <button
+          class="productButtonsBtn productButtonsAdd"
+        >
+          Add To Cart
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

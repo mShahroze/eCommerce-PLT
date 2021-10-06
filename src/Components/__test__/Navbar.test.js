@@ -3,12 +3,19 @@ import Navbar from "../Navbar";
 import { render } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import { Provider } from "react-redux";
-import store from "../../Redux/ecomStore";
 import { BrowserRouter } from "react-router-dom";
 import configureStore from "redux-mock-store";
 const middlewares = [];
 const mockStore = configureStore(middlewares);
 
+const initialState = {
+  shop: {
+    products: [],
+    basket: [],
+    currentItem: null,
+    loading: true,
+  },
+};
 const store = mockStore(initialState);
 describe("Navbar", () => {
   test("header renders with correct text", () => {
